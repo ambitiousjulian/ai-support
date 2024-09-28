@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import { FaGithub } from 'react-icons/fa';  // Import GitHub icon
+import { FaGithub } from 'react-icons/fa'; 
 
-// Hardcoded question-answer data
 const dataset = [
   {
     question: "What does the eligibility verification agent (EVA) do?",
@@ -60,9 +59,8 @@ function App() {
         </div>
       </div>
 
-      {/* GitHub Link at the bottom */}
       <footer className="footer">
-        <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer" className="github-link">
+        <a href="https://github.com/ambitiousjulian/ai-support.git" target="_blank" rel="noopener noreferrer" className="github-link">
           <FaGithub className="github-icon" /> View on GitHub
         </a>
       </footer>
